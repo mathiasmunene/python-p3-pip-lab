@@ -10,3 +10,7 @@ def requests_version():
 
 def pytest_version():
     return pytest.__version__
+
+print("Python version:", python_version())
+print("Requests version:", requests_version())
+print("Pytest version:", pytest_version())
